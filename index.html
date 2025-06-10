@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student Registration System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Student Registration System</h1>
+    <p>Register new students and manage their details with edit and delete options. Data is saved locally.</p>
+  </header>
+
+  <!-- Registration Form -->
+  <section class="form-section">
+    <form id="studentForm">
+      <div class="form-group">
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" placeholder="Enter full name" required="" >
+      </div>
+      <div class="form-group">
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" placeholder="Enter student ID" required ="" >
+      </div>
+      <div class="form-group">
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" placeholder="Enter email address" required="" >
+      </div>
+      <div class="form-group">
+        <label for="contact">Contact No.:</label>
+        <input type="text" id="contact" placeholder="Enter contact number" required="" >
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Display Registered Students -->
+  <section class="table-section">
+    <h2>Registered Students</h2>
+    <div class="table-container">
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Student ID</th>
+            <th>Email</th>
+            <th>Contact No.</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Student records will be inserted here -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; <span id="year"></span> Student Registration System. All rights reserved.</p>
+      <p>
+        Developed by Anjali Sharma | 
+        <a href="https://github.com/your-username/your-repo" target="_blank" class="github-link">
+          View on GitHub
+        </a>
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
