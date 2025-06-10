@@ -1,4 +1,4 @@
-# Student_rResgistration_System_Project
+# Student_Resgistration_System_Project
 
 Student Registration System is an individual project created by  Anjali Sharma (Km Anjali), focusing on basic CRUD operations with user-friendly features. using HTML, CSS, and JavaScript. It features a fully functional student registration system with local storage support.
 
